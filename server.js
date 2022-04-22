@@ -8,7 +8,7 @@ const server = http.createServer(app);
 const socketIO = require('socket.io');
 const io = socketIO(server, {
   cors: {
-    origin: "http://localhost:3000"
+    origin: "https://chat-app-front-iztsr2td4-bvelasqo.vercel.app"
   }
 });;
 
